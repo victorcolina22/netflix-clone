@@ -5,6 +5,12 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --brand-red: rgb(229, 9, 20);
+}
+
+@font-face {
+  font-family: Netflix Sans;
+  src: url("/fonts/NetflixSans-Regular.otf");
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,8 +20,18 @@
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:
+    Netflix Sans,
+    Arial,
+    Helvetica,
+    sans-serif;
+  margin: 0;
+  padding: 0;
 }
