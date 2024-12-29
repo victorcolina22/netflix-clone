@@ -1,10 +1,13 @@
 import Image from "next/image";
+
+// Components
 import { HeroImage } from "@/components/HeroImage";
-import { Trending } from "@/components/Trending";
+import { MoreReasonsToJoin } from "@/components/MoreReasonsToJoin";
+import { RoundedLine } from "@/components/RoundedLine";
 
 export default function Home() {
   return (
-    <section className="p-5 lg:p-0">
+    <section>
       <HeroImage>
         <header className="flex items-center justify-between lg:px-40">
           <Image
@@ -29,7 +32,10 @@ export default function Home() {
       </HeroImage>
 
       <section className="mt-[18rem]">
-        <Trending />
+        <RoundedLine />
+        <article className="bg-black xl:px-36 lg:px-20 md:px-10 px-5 pb-20">
+          <MoreReasonsToJoin />
+        </article>
       </section>
     </section>
   );
