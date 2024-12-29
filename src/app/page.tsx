@@ -1,11 +1,12 @@
 import Image from "next/image";
 
 // Components
+import Link from "next/link";
 import { HeroImage } from "@/components/HeroImage";
 import { MoreReasonsToJoin } from "@/components/MoreReasonsToJoin";
 import { Question } from "@/components/Question";
-import { RoundedLine } from "@/components/RoundedLine";
 import { QuestionDescription } from "@/components/Question/components/QuestionDescription";
+import { RoundedLine } from "@/components/RoundedLine";
 
 export default function Home() {
   return (
@@ -18,12 +19,12 @@ export default function Home() {
             height={200}
             width={200}
           />
-          <a
-            href=""
-            className="bg-brand-red px-4 py-[6px] rounded-md font-bold text-sm"
+          <Link
+            href="/login"
+            className="bg-brand-red hover:bg-brand-red-hover px-4 py-[6px] rounded-md font-bold text-sm transition-colors"
           >
             Iniciar sesión
-          </a>
+          </Link>
         </header>
 
         <article className="flex flex-col items-center justify-center mt-40">

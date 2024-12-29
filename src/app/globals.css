@@ -6,6 +6,8 @@
   --background: #000;
   --foreground: #171717;
   --brand-red: rgb(229, 9, 20);
+  --brand-red-hover: rgb(193, 17, 25);
+  --transparent-card: rgba(0, 0, 0, 0.7);
 }
 
 @font-face {

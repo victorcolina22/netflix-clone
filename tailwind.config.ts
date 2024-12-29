@@ -12,6 +12,8 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         "brand-red": "var(--brand-red)",
+        "brand-red-hover": "var(--brand-red-hover)",
+        "transparent-card": "var(--transparent-card)",
       },
     },
   },
