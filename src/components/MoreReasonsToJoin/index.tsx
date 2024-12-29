@@ -7,7 +7,7 @@ import { VisorIcon } from "../icons/VisorIcon";
 export function MoreReasonsToJoin() {
   return (
     <>
-      <h3 className="text-2xl">Más razones para unirte</h3>
+      <h3 className="text-2xl font-bold">Más razones para unirte</h3>
       <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 xl:gap-x-4 gap-4 mt-5">
         <CardInformation
           title="Disfruta en tu TV"
